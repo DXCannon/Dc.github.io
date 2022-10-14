@@ -1,0 +1,29 @@
+#container{
+    background-color: rgb(196, 104, 104);
+}
+
+#Header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#section1{
+    display: inline-block;
+    height: 600px;
+    width: 40%;
+    background-color: rgb(93, 143, 215);
+    padding: 5px;
+    text-align: center;
+    
+}
+
+#section2{
+    display: inline-block;
+    height: 600px;
+    width: 40%;
+    background-color: rgb(24, 97, 175);
+    padding: 5px;
+    text-align: center;
+}

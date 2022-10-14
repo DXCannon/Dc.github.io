@@ -1,0 +1,27 @@
+h1 {
+    color: rgb(48, 16, 154);
+    background-color: rgb(224, 20, 183);
+
+    
+}
+p{
+    color: brown;
+    text-align: center;
+}
+div{
+    background-color: rgb(176, 176, 224);
+}
+#container {
+    background-color: black;
+    border: 2px blue;
+
+
+
+}
+#container2 {
+    background-color: blue;
+    height: 500px;
+    padding: 10px;
+
+
+}
