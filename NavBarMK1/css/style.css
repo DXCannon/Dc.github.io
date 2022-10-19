@@ -1,0 +1,33 @@
+#nav1{
+    background-color: lightskyblue;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+
+}
+li{
+    list-style: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+#nav2{
+    background-color: green;
+    width: 100%;
+    position: fixed;
+}
+
+#nav3{
+    background-color: red;
+    width: 100%;
+    position: absolute;
+    bottom: 150px;
+    height: 40px;
+    bottom: 150px;
+}
+body{
+    height: 1500px;
+    position:relative ;
+}
