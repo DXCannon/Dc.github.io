@@ -1,0 +1,53 @@
+select,input,textarea{
+    display: block;
+    
+    
+}
+form{
+    border: 1.5px solid black;
+}
+header{
+    text-align: center;
+}
+input[type=text]:invalid{
+    border: 1.5px solid red;
+
+}
+input[type=email]:invalid{
+    border: 1.5px solid red;
+}
+#messagebox:invalid{
+    border: 1.5px solid red;
+
+}
+
+input[type=text]:valid{
+    border: 1.5px solid green;
+
+}
+input[type=email]:valid{
+    border: 1.5px solid green;
+}
+#messagebox:valid{
+    border: 1.5px solid green;
+
+}
+select:invalid{
+    border: 1.5px solid red;
+}
+select:valid{
+    border: 1.5px solid green;
+}
+select{
+    font-weight: bold;
+}
+#name{
+    font-weight: bold;
+}
+#email{
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+#messagebox{
+    margin-bottom: 15px;
+}
