@@ -3,12 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    background-image: url("../assets/branding/FogMorning.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 .hero-text{
-    color: antiquewhite;
-    font-size: larger;
+    color: #FFF;
+    font-size: xx-large;
+    border: 2px solid black;
 }

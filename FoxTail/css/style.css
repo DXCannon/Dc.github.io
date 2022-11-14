@@ -35,7 +35,7 @@ header {
   justify-content: space-between;
   padding:50px;
   background-color:#f8feff;
-  color:#2e4c83;
+  color:#e1a177;
 }
 .header-top{
   width:15%;
@@ -98,7 +98,7 @@ nav a:hover {
   width:100%;
 }
 .site_title {
-  font-family: "font-family: 'Lobster', cursive;";
+  font-family: 'Lobster', cursive;
   font-size: 4em;
   font-weight: 900;
   margin-bottom:0;
@@ -169,7 +169,7 @@ footer {
   display:flex;
 }
 footer h4, footer h5, footer h6 {
-  font-family: "Bebas Neue";
+  font-family: 'Montserrat', sans-serif;
   margin:0;
 
 }
@@ -217,6 +217,6 @@ footer h4 {
   line-height: 0.65;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  font-family: "Bebas Neue";
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
