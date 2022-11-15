@@ -10,6 +10,21 @@
 }
 .hero-text{
     color: #FFF;
-    font-size: xx-large;
     border: 2px solid black;
+    font-weight: bolder;
+
 }
+.hero-text h2{
+    font-size: 40px;
+    font-family: "font-family: 'Lobster', cursive;";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-text h4{
+    font-size: 20px;
+    display: flex;
+    
+}
+    
