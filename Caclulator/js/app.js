@@ -29,3 +29,8 @@ function multiplyThreeTimesFour(){
 function subtractFifteenfromThirtyFive(){
     result.innerHTML = 35 - 15;
 }
+function multiply(num1, num2){
+    let multiplication = num1 * num2;
+    result.innerHTML = multiplication;
+
+}
