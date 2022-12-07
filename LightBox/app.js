@@ -11,10 +11,15 @@ function openLightbox(){
     lightbox.src = this.src;
 }
 
+// Set single variable to get all image in gallery
+let galleryImages = document.getElementsByClassName("galleryImage")
+// Create loop to cycle through images and run Onclick even per image
 
-let bigFishTheory = document.getElementById('bigFishTheory');
+for (let i = 0; i < galleryImages.length; i++ ){
+    let galleryImage = galleryImages[i];
+    galleryImage.onclick = openLightbox
+}
 
-bigFishTheory.onclick = openLightbox
 
 // Make function to make closer clickable
 function closeLightbox(){
@@ -25,28 +30,9 @@ function closeLightbox(){
 lightboxCloser.onclick = closeLightbox;
 lightboxBackground.onclick = closeLightbox;
 
- let vinceStaples = document.getElementById('vinceStaples');
- vinceStaples.onclick = openLightbox;
 
- let Denzel = document.getElementById('Denzel');
- Denzel.onclick = openLightbox;
 
- let denzelZuu = document.getElementById('denzelZuu');
- denzelZuu.onclick = openLightbox;
 
- let denzelImperial = document.getElementById('denzelImperial');
- denzelImperial.onclick = openLightbox;
 
- let denzelMelt = document.getElementById('denzelMelt');
- denzelMelt.onclick = openLightbox;
-
- let foreverStory = document.getElementById('foreverStory');
- foreverStory.onclick = openLightbox;
-
- let Foreverstory = document.getElementById('Foreverstory');
- Foreverstory.onclick = openLightbox;
-
- let Maadcity = document.getElementById('Maadcity');
- Maadcity.onclick = openLightbox;
 
 
