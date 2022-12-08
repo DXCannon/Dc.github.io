@@ -47,7 +47,7 @@
   and positions it at the top right of the screen.
 */
 #lightboxCloser {
-  color: white;
+  color: rgb(10, 7, 195);
   font-family: Verdana, sans-serif;
   font-size: 36px;
   font-weight: bold;
