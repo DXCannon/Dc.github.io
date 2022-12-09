@@ -1,0 +1,12 @@
+#NRLOGO{
+    transition: 1.2s;
+    transition-delay: 0.50s;
+    transform-origin: 50% 50%;
+    display: block;
+    width: 60%;
+    margin: 100px auto;
+    
+}
+#NRLOGO:hover{
+    transform: rotate(360deg);
+}
