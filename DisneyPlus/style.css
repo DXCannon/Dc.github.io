@@ -1,0 +1,39 @@
+{background-image: url("../../assets/background.png");}
+#top-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#emailbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#bottom-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#huluimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bundle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: inline-block;
+}
+
+#footer{
+    
+   flex-direction: row;
+    
+}
